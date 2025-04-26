@@ -9,6 +9,11 @@
 
 body{
   font-family: sans-serif;
+  
+}
+
+#root{
+  overflow-x: hidden;
 }
 
 
@@ -40,4 +45,33 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+@keyframes mymove {
+  0% {
+    /* -webkit-transform: translateY(10px);
+    transform: translateY(10px); */
+    scale: 1;
+  }
+
+  100% {
+    /* -webkit-transform: translateY(-40px);
+    transform: translateY(-40px); */
+    scale: 1.2;
+  }
+}
+
+
+.brand-image{
+  -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: mymove;
+    animation-name: mymove;
 }

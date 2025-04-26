@@ -20,7 +20,7 @@ const Crousal = () => {
           </h1>
         </div>
         <div className="col-md-6 text-center">
-          <img className="img-fluid"
+          <img className="img-fluid brand-image"
           data-aos="fade-left"
             data-aos-duration="1500"
             src={mainImage}
