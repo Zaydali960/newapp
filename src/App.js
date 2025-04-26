@@ -9,6 +9,7 @@ import AkhuwatBussinessLoan from './Components/akhuwatBussinessLoan';
 import AkhuwatHouseLoan from './Components/akhuwatHouseLoan';
 import AboutUs from './Components/aboutUs';
 import ContactUS from './Components/contactUs';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,7 +23,6 @@ function App() {
   return (
     <Router>
       <Navbar />
-
       <Switch>
         <Route exact path="/">
           <Home />
