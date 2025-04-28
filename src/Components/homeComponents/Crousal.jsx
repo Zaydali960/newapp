@@ -12,11 +12,11 @@ const Crousal = () => {
     }, []);
 
   return (
-    <div className="container-fluid py-5 d-flex justify-content-center" style={{ backgroundColor: '#f2f5fa', height:'600px'}}>
+    <div className="container-fluid py-5 d-flex justify-content-center mainCarousal" style={{ height:'600px'}}>
       <div className="row" style={{width:'80%'}}>
         <div className={`col-md-6 ${isMobile? "col-12 mb-4 mb-md-0":""} d-flex align-items-center`}>
           <h1   data-aos-duration="1500" data-aos="fade-right" className={`${isMobile?"fw-bold fs-3 fs-md-1":"display-5 fw-bold"}`}>
-            Akhuwat Loan Scheme – Pakistan’s Leading Loan Provider
+          The Akhuwat Loan Program is Pakistan's best loan company.
           </h1>
         </div>
         <div className="col-md-6 text-center">

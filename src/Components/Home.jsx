@@ -9,12 +9,14 @@ import AkhuwatLoanInstruction from './homeComponents/AkhuwatLoanInstruction'
 import AkhuwatLoanScheme from './homeComponents/AkhuwatLoanScheme'
 import AkhuwatAdvantage from './homeComponents/AkhuwatAdvantage'
 import AkhuwatImages from './homeComponents/AkhuwatImages'
+import StatsCards from './homeComponents/StatsCard'
 
 
 const Home = () => {
   return (
     <div>
       <Crousal />
+      <StatsCards />
       <Cards />
       <AkhuwatLoanBanner />
       <ApplyLoanDes />
@@ -24,7 +26,6 @@ const Home = () => {
       <AkhuwatLoanScheme />
       <AkhuwatAdvantage />
       <AkhuwatImages />
-
     </div>
   )
 }

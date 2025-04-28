@@ -39,10 +39,9 @@ const AkhuwatLoanStatus = () => {
 
         {/* Right Column: Text Content */}
         <div className="col-md-6 p-5">
-          <h2 className="fw-bold mb-3">Check Your Loan Status Online</h2>
+          <h2 className="fw-bold mb-3">Check the status of your loan online at any time</h2>
           <p>
-            Now you can apply for an Akhuwat loan online and check your loan status by entering your valid CNIC number and the mobile number provided by the Akhuwat Loan Department.
-            If you have any problems with checking your loan online, please call the Akhuwat Loan WhatsApp Helpline Number for assistance.
+          Applying for an Akhuwat loan is now possible online. To check on the status of your loan, give your valid CNIC and the mobile number that the Akhuwat Loan Department has on file. If you have any problems while trying to check the state of your loan online, you can call the Akhuwat Loan WhatsApp Helpline for help.
           </p>
         </div>
       </div>

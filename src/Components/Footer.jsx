@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className=" text-white" style={{backgroundColor:'#4e4e4f'}}>
@@ -31,19 +31,19 @@ const Footer = () => {
             </h3>
             <ul className="list-unstyled">
               <li className="mb-2">
-                <a href="/" className="text-white text-decoration-none">Privacy Policy</a>
+                <Link to="/" className="text-white text-decoration-none">Privacy Policy</Link>
               </li>
               <li className="mb-2">
-                <a href="/" className="text-white text-decoration-none">Contact Us – Swift Loans</a>
+                <Link to="/" className="text-white text-decoration-none">Contact Us – Swift Loans</Link>
               </li>
               <li className="mb-2">
-                <a href="/" className="text-white text-decoration-none">About Us</a>
+                <Link to="/" className="text-white text-decoration-none">About Us</Link>
               </li>
               <li className="mb-2">
-                <a href="/" className="text-white text-decoration-none">Success Story: Empowering Lives through Akhuwat Loan</a>
+                <Link to="/" className="text-white text-decoration-none">Success Story: Empowering Lives through Akhuwat Loan</Link>
               </li>
               <li className="mb-2">
-                <a href="/" className="text-white text-decoration-none">Welcome to Akhuwat Loan – Pakistan's Leading Loan Provider</a>
+                <Link to="/" className="text-white text-decoration-none">Welcome to Akhuwat Loan – Pakistan's Leading Loan Provider</Link>
               </li>
             </ul>
           </div>
@@ -85,9 +85,9 @@ const Footer = () => {
       © Copyright Swift Loan Pakistan. All rights reserved. (APM Id : Webs_Info_875)
     </div>
     <div>
-      <a href="/" className="me-3 small text-white text-decoration-none">Disclaimer</a>
-      <a href="/" className="me-3 small text-white text-decoration-none">Privacy Policy</a>
-      <a href="/" className="small text-white text-decoration-none">Terms and Conditions</a>
+      <Link to="/disclaimer" className="me-3 small text-white text-decoration-none">Disclaimer</Link>
+      <Link to="/privacy-policy" className="me-3 small text-white text-decoration-none">Privacy Policy</Link>
+      <Link to="/terms-and-conditions" className="small text-white text-decoration-none">Terms and Conditions</Link>
     </div>
   </div>
 </div>

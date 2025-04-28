@@ -22,10 +22,10 @@ const ApplyLoanDes = () => {
       <div className="bg-dark bg-opacity-50  rounded py-5" style={{ width: '100%' }}>
         <div className="container">
           <h1 className={`fw-light fw-normal ${isMobile ? 'fs-3 fs-md-1' : "p-4"}`}>
-            Apply Today For The Akhuwat Loan That Suits Your Needs Perfectly
+          Apply for the Akhuwat Loan that fits your needs right away to get started.
           </h1>
           <p className={`fs-5  mx-auto   my-4 ${isMobile ? 'fs-3 fs-md-1 fw-light' : "fw-normal mt-2"}`} style={{ maxWidth: "800px" }}>
-            Financial freedom is the cornerstone of a fulfilling and rewarding life. It’s about having the ability to make choices that align with your goals, values, and aspirations without being hindered by financial constraints. In this chapter, we delve deep into the essence of financial freedom, exploring what it means to be financially independent and how you can achieve this state of empowerment with the help of Akhuwat Loan Apply.
+          Being financially free is the key to living a useful and satisfying life. It means not having to worry about money and being able to make choices that are in line with your goals, ideals, and dreams. This part talks about what it really means to be financially independent and how you can get there with help from Akhuwat Loan Apply.
           </p>
         </div>
       </div>

@@ -8,7 +8,7 @@ const AkhuwatLoanBanner = () => {
         <div className="col-md-6 p-5 d-flex align-items-center order-2">
           <div>
             <p className="fs-6 fw-light">
-              Welcome to Akhuwat Loan Scheme, your gateway to financial empowerment and prosperity. In today’s dynamic and ever-evolving economic landscape, attaining financial freedom transcends being merely a goal; it represents a journey toward a brighter, more secure future. At Akhuwat Loan Apply, we understand the importance of financial independence and are dedicated to providing you with the tools, resources, and support you need to unlock your true potential and realize your dreams.
+            Welcome to the Akhuwat Loan Scheme, which will help you get rich and become successful. In today's economy, where things change quickly, becoming financially free is more than just a goal. It's a path to a more safe and bright future. We at Akhuwat Loan Apply know how important it is to be financially independent. That's why we want to give you the tools, advice, and support you need to reach your full potential and make your dreams come true.
             </p>
             <p className="mt-3">
               How to Apply for Akhuwat Loan – <a href="/" className="text-primary text-decoration-none fw-bold">ApplyAkhuwatLoan</a>:

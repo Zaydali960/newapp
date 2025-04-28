@@ -1,5 +1,5 @@
 import React from 'react';
-
+import lonSchemeImg from '../../Images/SchemeLoanImg.png'
 
 const AkhuwatLoanScheme = ()=>{
   return (
@@ -7,29 +7,22 @@ const AkhuwatLoanScheme = ()=>{
       <div className="container ">
         <div className="row align-items-center">
           <div className="col-lg-5 " >
-            <h1 className="fw-bold mb-4">Akhuwat Foundation Loan Scheme</h1>
+            <h1 className="fw-bold mb-4">Credit Scheme for the Akhuwat Foundation</h1>
             
             <p className="mb-4 fw-bold mt-1">
-              Akhuwat Foundation has launched a beneficial scheme 
-              for everyone. It is accessible with minimal proof, and no 
-              significant proof is required. The foundation has 
-              introduced a limit that everyone can use easily, making 
-              Akhuwat Foundation very popular across Pakistan.
+            The Akhuwat Foundation has made a helpful plan that anyone can use. It only needs a small amount of paperwork, which makes the application process easy and quick. The Akhuwat Foundation has become very famous all over Pakistan because it offers loan amounts that are easy for everyone to afford.
             </p>
             
             <div className="border-start border-primary border-4 ps-3 mb-4 mt-1">
               <p className="mb-0">
-                If you don't understand this method, then you don't 
-                have to worry at all, you have to call the Akhuwat head 
-                office contact number immediately and our 
-                representative will guide you better.
+              If this process seems complicated to you, don't worry—just call the Akhuwat head office number, and someone will help you right away.
               </p>
             </div>
           </div>
           
           <div className="col-lg-7 ml-3">
             <img 
-              src="https://akhuwatloanschemepk.com/wp-content/uploads/2024/11/WhatsApp-Image-2024-06-12-at-3.15.37-PM-768x768-1.jpeg" 
+              src={lonSchemeImg} 
               alt="Akhuwat Loan Scheme Details in Urdu" 
               className="img-fluid"
               style={{height:"500px"}}

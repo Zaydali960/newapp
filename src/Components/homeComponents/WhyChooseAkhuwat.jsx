@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from 'react-countup';
 
 const WhyChooseAkhuwat = () => {
   return (
@@ -16,20 +17,10 @@ const WhyChooseAkhuwat = () => {
         <div className="row align-items-center">
           <div className="col-lg-5">
             <h2 className="fw-bold mb-4 display-5">
-              Why Choose an Akhuwat Loan?
+            Why Akhuwat Loans Are a Good Choice?
             </h2>
             <p>
-              Akhuwat Foundation stands out as a unique loan provider in
-              Pakistan, offering ethical, interest-free loans (Qarz-e- Hasna)
-              aimed at helping those in need. Unlike traditional banks, Akhuwat
-              prioritizes social welfare over profit. They offer loans for
-              various purposes, such as business, education, and healthcare,
-              with no hidden fees or processing charges. Applications can be
-              submitted both online and in person at local branches, promoting a
-              community-focused approach. Akhuwat's mission is to alleviate
-              poverty by providing accessible, transparent, and cost-free
-              financial assistance, empowering individuals to improve their
-              quality of life.
+            The Akhuwat Foundation is one of a kind in Pakistan because it gives out moral, interest-free loans (Qarz-e-Hasna) to help people who need them. Akhuwat is not like other banks in that it cares more about helping people than making money. They offer loans for many reasons, like business, schooling, and health care, and there are no hidden fees or processing costs. People can apply online or in person at local branches, which emphasizes a method that is driven by the community. The goal of Akhuwat is to reduce poverty by giving people easy access to clear, free financial help that helps them improve their lives.
             </p>
           </div>
 
@@ -51,7 +42,8 @@ const WhyChooseAkhuwat = () => {
                     style={{ width: "100%" }}
                   >
                     <p className="mb-0 text-center">HELP PEOPLE GET HOME</p>
-                    <h2 className="display-4 text-center fw-bold">14K+</h2>
+                    <h2 className="display-4 text-center fw-bold"><CountUp end={14} duration={3} suffix="K+" />
+                    </h2>
                   </div>
                 </div>
               </div>

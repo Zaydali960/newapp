@@ -16,6 +16,11 @@ body{
   overflow-x: hidden;
 }
 
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -48,6 +53,29 @@ body{
   }
 }
 
+
+.whatsapp {
+  position: fixed;
+  bottom: -4px;
+  left: 9px;
+  font-size: 50px;
+  z-index: 99999999;
+  border-radius: 100%;
+}
+
+.mainCarousal{
+  background: #ffffff;
+background: linear-gradient(179deg, rgba(255, 255, 255, 1) 0%, rgba(87, 199, 133, 1) 89%, rgba(119, 237, 83, 1) 100%);
+}
+
+.phonenum {
+  position: fixed;
+  bottom: -4px;
+  right: 9px;
+  font-size: 50px;
+  z-index: 99999999;
+  border-radius: 100%;
+}
 
 
 

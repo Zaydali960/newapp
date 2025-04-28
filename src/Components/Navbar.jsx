@@ -7,9 +7,9 @@ import {
 const Navbar = () => {
   return (
     <>
-  <nav className="navbar  w-90 p-3 navbar-expand-lg sticky-top "style={{ height: '80px', backgroundColor:'#f7f8f9'}}>
+  <nav className="py-2 navbar  w-90 p-3 navbar-expand-lg sticky-top "style={{ height: '80px', backgroundColor:'#f7f8f9'}}>
   <div className= " container-fluid d-flex justify-content-between " style={{ width: '80%' }}>
-    <Link className="navbar-brand me-3" to="/"><img className='' style={{ width: '60px', height: '60px' }} src='https://akhuwat.org.pk/wp-content/uploads/2022/09/Logo-EN-white.png' alt="" /></Link>
+    <Link className="navbar-brand me-3" to="/"><img className='' style={{ width: '60px', height: '60px' }} src='https://akhuwat.org.pk/static/media/frame-logo.df7e128da81e78ac4924.png' alt="" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,14 +22,20 @@ const Navbar = () => {
           <Link className="nav-link fs-5 fw-bold" to="/success-story">Success Story</Link>
         </li>
         <li className="nav-item dropdown mx-2">
-          <Link className="nav-link fs-5 fw-bold dropdown-toggle" to="/akhuwat-loan-service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Akhuwat Loan Service
-          </Link>
-          <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to="/akhuwat-bussiness-loan">Akhuwat Bussiness Loan</Link></li>
-            <li><Link className="dropdown-item" to="/akhuwat-house-loan">Akhuwat House Loan</Link></li>
-          </ul>
-        </li>
+  <Link
+    className="nav-link fs-5 fw-bold dropdown-toggle"
+    to="/akhuwat-loan-service"
+    role="button"
+    aria-expanded="false"
+  >
+    Akhuwat Loan Service
+  </Link>
+  <ul className="dropdown-menu">
+    <li><Link className="dropdown-item" to="/akhuwat-bussiness-loan">Akhuwat Business Loan</Link></li>
+    <li><Link className="dropdown-item" to="/akhuwat-house-loan">Akhuwat House Loan</Link></li>
+  </ul>
+</li>
+
         <li className="nav-item mx-2">
           <Link className="nav-link fs-5 fw-bold" to="/about-us">About Us</Link>
         </li>
